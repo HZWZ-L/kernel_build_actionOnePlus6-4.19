@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/HZWZ-L/kernel_build_actionOnePlus6-4.19
           kernel-dir: msm-4.19
           kernel-branch: Main
-          config: cas_defconfig
+          config: vendor/sdm845-perf_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: false
