@@ -15,13 +15,13 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/HZWZ-L/kernel_build_actionOnePlus6-4.19
+          kernel-url: https://github.com/HZWZ-L/kernel_build_actionOnePlus6-4.19.git
           kernel-dir: msm-4.19
           kernel-branch: Main
           config: vendor/sdm845-perf_defconfig
           arch: arm64
           aosp-gcc: false
-          aosp-clang: false
+          aosp-clang: true
           ksu: true
           ksu-version: main
           android-version: 15
