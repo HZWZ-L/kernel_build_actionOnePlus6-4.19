@@ -20,8 +20,9 @@ jobs:
           kernel-branch: Main
           config: vendor/sdm845-perf_defconfig
           arch: arm64
-          aosp-gcc: false
-          aosp-clang: true
+          aosp-gcc: true
+          aosp-gcc-branch: master
+          aosp-clang: false
           ksu: true
           ksu-version: main
           android-version: 15
